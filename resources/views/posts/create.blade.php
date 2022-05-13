@@ -17,7 +17,7 @@
 <form method="POST" action="/posts">
     {{ csrf_field() }}
     <div class="form-group">
-        <label for="exampleInputEmail1">Title_1</label>
+        <label for="exampleInputEmail1">Title</label>
         <input type="text" class="form-control" aria-describedby="emailHelp" name="title" value="{{old('title')}}">
     </div>
 
