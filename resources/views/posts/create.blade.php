@@ -22,16 +22,6 @@
     </div>
 
     <div class="form-group">
-        <label for="exampleInputEmail1">Title_2</label>
-        <input type="text" class="form-control" aria-describedby="emailHelp" name="title" value="{{old('title')}}">
-    </div>
-
-    <div class="form-group">
-        <label for="exampleInputEmail1">Title_3</label>
-        <input type="text" class="form-control" aria-describedby="emailHelp" name="title" value="{{old('title')}}">
-    </div>
-
-    <div class="form-group">
         <label for="exampleInputPassword1">Content</label>
         <textarea class="form-control" name="content">{{old('content')}}</textarea>
     </div>
