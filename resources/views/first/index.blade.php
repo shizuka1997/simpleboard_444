@@ -6,7 +6,7 @@
         {{ session('message') }}
     @endif
 
-    <h1>Posts</h1>
+    <h1>First Posts</h1>
 
     @foreach($posts as $post)
         <div class="card">
